@@ -7,12 +7,13 @@
 **Semester**: Winter 2023
 
 **Presentations**: 12:00 PM - 5:00 PM 2023-04-20
+**Presentations**: 12:00 PM - 5:00 PM 2023-04-12
 
-**Final Deliverable Due Date**: 11:59 AM (noon) 2023-04-15
+**Final Deliverable Due Date**: 11:59 AM (noon) 2023-04-11
 
 **Assessment**: In total, the group project (deliverable and presentation) is worth 40% of your final grade
 
-**Team Members**: Jason, Ray Jayne Neil Mispelaar
+**Team Members**: Jason, Ray, Jayne & we've been hacked by Neil Mispelaar!!!!!
 
 ## Introduction
 
