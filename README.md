@@ -12,8 +12,7 @@
 
 **Assessment**: In total, the group project (deliverable and presentation) is worth 40% of your final grade
 
-**Team Members**: FILL IN MEMBERS HERE
-
+**Team Members**: Jason, Ray Jayne
 ## Introduction
 
 The group project is spread out over a four week period. During Week 1 project teams will have a kick-off session where participants form teams, work towards defining a specific problem, and then sketch out a solution to solve their identified problem. Week 2 and week 3 will involve development and testing of their solution. Week 4 will feature team innovation pitches during our final class.
