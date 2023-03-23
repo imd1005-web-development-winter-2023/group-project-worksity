@@ -6,8 +6,7 @@
 
 **Semester**: Winter 2023
 
-**Presentations**: 12:00 PM - 5:00 PM 2023-04-20
-**Presentations**: 12:00 PM - 5:00 PM 2023-04-12
+**Presentations**: 12:00 PM - 5:00 PM 2023-04-11
 
 **Final Deliverable Due Date**: 11:59 AM (noon) 2023-04-11
 
