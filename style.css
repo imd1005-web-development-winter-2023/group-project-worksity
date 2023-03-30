@@ -24,6 +24,52 @@
   --body-background-colour: var(--colour-cello);
 }
 
+/* homebar */
+.header {
+  background-color: red;
+  padding: .7rem ;
+  margin-right: start;
+}
+
+.header--banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header--banner--img {
+  align-items: center;
+  height: 15rem;
+}
+
+.header--banner--nav ul {
+  display: flex;
+  gap: 25rem;
+  list-style-type:none;
+
+}
+.search{
+  color:black;
+  height: 6rem;
+  width: 25rem;
+  font-size:3rem ;
+
+}
+
+.header--banner--nav li a {
+  color:white;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.header--banner--nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
 /*
   PAGE / BODY
 */
