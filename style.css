@@ -40,20 +40,20 @@
 
 .header--banner--img {
   align-items: center;
-  height: 15rem;
+  height: 2rem;
 }
 
 .header--banner--nav ul {
   display: flex;
-  gap: 25rem;
+  gap: 10rem;
   list-style-type:none;
 
 }
 .search{
   color:black;
-  height: 6rem;
-  width: 25rem;
-  font-size:3rem ;
+  height: 2rem;
+  width: 10rem;
+  font-size:2rem ;
 
 }
 
