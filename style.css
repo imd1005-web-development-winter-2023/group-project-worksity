@@ -40,7 +40,7 @@
 
 .header--banner--img {
   align-items: center;
-  height: 2rem;
+  height: 4rem;
 }
 
 .header--banner--nav ul {
@@ -53,15 +53,14 @@
   color:black;
   height: 2rem;
   width: 10rem;
-  font-size:2rem ;
-
+  font-size:1rem ;
 }
 
 .header--banner--nav li a {
   color:white;
   font-weight: 800;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .header--banner--nav ul li a:hover {
