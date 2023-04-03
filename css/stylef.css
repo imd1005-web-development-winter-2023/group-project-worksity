@@ -17,11 +17,11 @@
     --colour-cello: #1d3557;*/
   
     /* Header configuration */
-    --header-heading-colour: var(--colour-peppermint);
+    --header-heading-colour: var(--colour-cred);
   
     /* Body configuration */
-    --body-default-colour: var(--colour-peppermint);
-    --body-background-colour: var(--colour-cello);
+    --body-default-colour: var(--colour-cblack);
+    --body-background-colour: var(--colour-isabelline);
   }
 
 .row{

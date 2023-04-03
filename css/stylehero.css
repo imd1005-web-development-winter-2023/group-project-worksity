@@ -1,0 +1,74 @@
+/*
+  CSS File
+*/
+
+/* THis is a comment from Neil */
+
+/*
+ VARIABLES
+*/
+:root {
+  /* Core colours */
+  /* https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
+  --colour-cblack: #1A1A18;
+  --colour-cred: #E91C24;
+  --colour-isabelline: #EFE9E7;
+  /*--colour-wedgewood: #457b9d;
+    --colour-cello: #1d3557;*/
+
+  /* Header configuration */
+  --header-heading-colour: var(--colour-cred);
+
+  /* Body configuration */
+  --body-default-colour: var(--colour-cblack);
+  --body-background-colour: var(--colour-isabelline);
+}
+
+.header {
+    height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3),
+     rgba(255, 43, 43, 0.316)),
+     url(https://cdn.carleton.ca/crm-assets/img/cu-crm-login-bg-small.jpg);/*
+     "images\hero.jpg";*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+
+  .campus-alerts{
+    height: 140px;
+    width: 700px;
+    border-radius: 20px;
+    margin:5px;
+    background-color: var(--colour-cred);
+    padding: 15px 30px 15px 30px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    color: var(--colour-isabelline);
+    border: 1px solid #EFE9E7;
+    box-shadow: rgb(156, 0, 0) 0px 2px 8px 0px;
+  }
+
+  .vl{
+    border-left: 2px solid var(--colour-isabelline);
+      height: 100px;
+      width: 20px;
+  }
