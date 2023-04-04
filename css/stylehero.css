@@ -63,7 +63,7 @@
     align-items: center;
     gap: 20px;
     color: var(--colour-isabelline);
-    border: 1px solid #EFE9E7;
+    border: 1px solid var(--colour-isabelline);
     box-shadow: rgb(156, 0, 0) 0px 2px 8px 0px;
   }
 
