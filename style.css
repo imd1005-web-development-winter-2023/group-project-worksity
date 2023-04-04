@@ -135,6 +135,70 @@ main {
   text-decoration: underline;
 }
 
+
+/* Student Services*/
+.student--Services {
+  width: 1500px; 
+}
+
+.student--Services h2 {
+  font-size: xx-large;
+  padding: 1rem;
+  background-color: black;
+}
+
+.student--Services--items {
+  background-color: whitesmoke;
+}
+
+.student--Services--items ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 1000px;
+  gap: 2rem;
+  padding: 2rem;
+  list-style-type: none;
+}
+
+.student--Services--items li {
+  text-align: center;
+  font-size: x-large;
+  padding: 1rem;
+  background-color: red;
+}
+
+.Noti {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  text-align: center;
+  font-size: x-large;
+  padding: 1rem;
+  background-color: red;
+}
+
+.middle--row {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.big--box--2 {
+  grid-column-start: 3;
+  grid-column-end: -1;
+}
+
+.student--Services--items li a {
+  text-decoration: none;
+  color: white;
+}
+
+.student--Services--items li a:hover {
+  text-decoration: underline;
+}
+
 /*
   Screen reader text utility class
 */
