@@ -17,14 +17,14 @@
     --colour-cello: #1d3557;*/
 
   /* Header configuration */
-  --header-heading-colour: var(--colour-cred);
+  --heads-heading-colour: var(--colour-cred);
 
   /* Body configuration */
   --body-default-colour: var(--colour-cblack);
   --body-background-colour: var(--colour-isabelline);
 }
 
-.header {
+.heads {
     height: 75vh;
     width: 100%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.3),
@@ -42,7 +42,7 @@
   }
 
 
-  .container{
+  .heads--container{
     display: flex;
     justify-content: center;
     align-items: center;
