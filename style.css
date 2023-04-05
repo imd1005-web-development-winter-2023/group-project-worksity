@@ -78,6 +78,7 @@ main {
 }
 
 .student--info h2 {
+  color: white;
   font-size: xx-large;
   padding: 1rem;
   background-color: black;
@@ -139,7 +140,8 @@ main {
 }
 
 .student--Services h2 {
-  font-size: x-large;
+  color: white;
+  font-size: xx-large;
   padding: 1rem;
   background-color: black;
   transform: translate(0,0.7rem);
@@ -248,18 +250,17 @@ input[type=submit] {
 }
 
 /*Trying to add a box for the icon*/
-.Offer{
-  height: 5rem;
+.icon{  
+  height: 10rem;
+  width: 10rem;
   background:white; 
+  margin: auto;
 }
-.Apply{
-  height: 5rem;
-  background:white; 
+
+.middle--row ul{
+  padding: -2rem;
 }
-.Waitlist{
-  height: 5rem; 
-  color:white; 
-}
+
 /*----------------Bottom Row----------------------*/
 
 
