@@ -166,7 +166,6 @@ main {
 .student--Services--items ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 1000px;
   gap: 2rem;
   padding: 2rem;
   list-style-type: none;
@@ -180,13 +179,20 @@ main {
   background-color: #F02424;
 }
 
+.student--Services--items li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*----------------Top Row----------------------*/
+
 .Noti {
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-start: 2;
   grid-column-end: 4;
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
   background-color: #F02424;
 }
 
@@ -194,11 +200,13 @@ main {
   color: black;
   background-color: #F5EDED;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.1px;
   border-radius: 1rem;
 
-  margin-top:2rem;
-  padding-top: 1.5rem;
+  margin-top:1rem;
+  margin-bottom:1rem;
+
+  padding-top: 1rem;
   padding-bottom: 1rem;
   margin-left:3rem;
   margin-right:3rem;
@@ -215,27 +223,55 @@ main {
 }
 
 .Noti_form_check{
+  padding-left: 8rem;
+  padding-top: 1rem;
+  /*
   margin-left: 3rem;
   padding-left: 11.7rem;
-  padding-top: 1rem;
-
+  */
 }
+
+input[type=submit] {
+  padding:5px 15px; 
+  background:white; 
+  border:1px;
+  border-style: solid;
+  border-color: black;
+  cursor:pointer;
+  border-radius: 5px; 
+  margin-left: 10.5rem;
+}
+
+/*----------------Middle Row----------------------*/
 
 .middle--row {
   grid-row-start: 2;
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 4;
+  height: 22rem;
 }
 
-.student--Services--items li a {
-  text-decoration: none;
-  color: white;
-}
-
-.student--Services--items li a:hover {
+.middle--row li a:hover {
   text-decoration: underline;
 }
+
+/*Trying to add a box for the icon*/
+.Offer{
+  height: 5rem;
+  background:white; 
+}
+.Apply{
+  height: 5rem;
+  background:white; 
+}
+.Waitlist{
+  height: 5rem; 
+  color:white; 
+}
+/*----------------Bottom Row----------------------*/
+
+
 
 /*
   Screen reader text utility class
