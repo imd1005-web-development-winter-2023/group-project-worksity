@@ -73,28 +73,32 @@ main {
 .student--info {
   padding-left: 10rem;
   padding-right: 10rem;
-  width: 100rem; }
+  width: 100rem; 
+  filter: drop-shadow(0 0 0.75rem black);
+}
 
 .student--info h2 {
   font-size: xx-large;
   padding: 1rem;
   background-color: black;
+  transform: translate(0,0.7rem);
 }
 
 .student--info--items {
   background-color: whitesmoke;
+  border-radius: 1rem;
 }
 
 .student--info--items ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 1000px;
   gap: 2rem;
   padding: 2rem;
   list-style-type: none;
 }
 
 .student--info--items li {
+  border-radius: 1rem;
   text-align: center;
   font-size: x-large;
   padding: 1rem;
@@ -128,13 +132,14 @@ main {
 /* Student Services*/
 .student--Services {
   padding-left: 10rem;
-  padding-right: 10rem;  
+  padding-right: 10rem;
+  margin-bottom: 5rem;  
   width: 100rem; 
-
+  filter: drop-shadow(0 0 0.75rem black);
 }
 
 .student--Services h2 {
-  font-size: xx-large;
+  font-size: x-large;
   padding: 1rem;
   background-color: black;
   transform: translate(0,0.7rem);
@@ -158,7 +163,7 @@ main {
 .student--Services--items li {
   border-radius: 1rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: larger;
   padding: 1rem;
   background-color: #D81010;
 }
@@ -196,7 +201,7 @@ main {
   margin-right:3rem;
 
   text-align: start;
-  font-size: 1.5rem;
+  font-size: large;
 }
 
 .boxes{
@@ -234,6 +239,8 @@ input[type=submit] {
   grid-column-start: 1;
   grid-column-end: 4;
   height: 22rem;
+  font-size: large;
+
 }
 
 .middle--row li a:hover {
@@ -254,6 +261,9 @@ input[type=submit] {
   color:white; 
 }
 /*----------------Bottom Row----------------------*/
+
+
+
 
 
 
