@@ -81,24 +81,31 @@
                   <a href="#">Want Notifications?</a>
                   <form class=Noti_form>
                     <label class="boxes" for="name"> Name:   </label>
-                    <input type="text" id="name" name="name"><br>
+                    <input type="text" id="name" name="name" required><br>
                     <label class="boxes"for="email"> Email: </label>
                     <input type="text" id="email" name="email"><br>
                     <label class="boxes"for="phoneNumber">Phone Number: </label>
                     <input type="text" id="phoneNumber" name="phoneNumber"><br>
                     
                   <div class="Noti_form_check">
-                    <input type="checkbox" id="Emails" name="Emails" value="Email">
+                    <input type="checkbox" id="Emails" name="Emails" value="Email" >
                     <label for="Emails"> I would like to be sent updates via emails.</label><br>
                     <input type="checkbox" id="Texts" name="Texts" value="Text">
                     <label for="Texts"> I would like to be sent updates via text.</label><br>
                     <input type="checkbox" id="bot" name="bot" value="Bot">
                     <label for="bot"> I am not a robot. </label><br>
+                    <input type="submit" value="Submit">
                   </div>
                   </form>  
                 </li>
 
-                <li class="middle--row"><a href="#">Housing</a></li>
+                <li class="middle--row"><a href="#">Housing</a>
+                  <ul>
+                    <li class="Offer"><a href="#">Accept residence offer</a></li>
+                    <li class="Apply"><a href="#">Apply to residence</a></li>
+                    <li class="Waitlist"><a href="#">View waitlist</a></li>
+                  </ul>
+                </li>
                 <li class="bottom--row"><a href="#">Student Support Services</a></li>
                 <li class="bottom--row"><a href="#">TA Managment</a></li>
                 <li class="bottom--row"><a href="#">Online Courses</a></li>
