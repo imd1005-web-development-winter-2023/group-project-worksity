@@ -153,7 +153,7 @@ main {
   font-size: xx-large;
   padding: 1rem;
   background-color: black;
-  transform: translate(0,1rem);
+  transform: translate(0,0.7rem);
 
 }
 
@@ -200,12 +200,11 @@ main {
   margin-top:2rem;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
-  margin-left:5rem;
-  margin-right:5rem;
+  margin-left:3rem;
+  margin-right:3rem;
 
   text-align: start;
   font-size: 1.5rem;
-
 }
 
 .boxes{
