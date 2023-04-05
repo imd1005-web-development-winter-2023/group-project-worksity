@@ -14,7 +14,7 @@
   --colour-peppermint: #f1faee;
   --colour-aquaisland: #a8dadc;
   --colour-wedgewood: #457b9d;
-  --colour-cello: #1d3557;
+
 
   /* Header configuration */
   --header-heading-colour: var(--colour-peppermint);
@@ -26,7 +26,7 @@
 
 /* homebar */
 .header {
-  background-color: red;
+  background-color: #F02424;
   padding: .7rem ;
   margin-right: start;
 }
@@ -57,7 +57,7 @@
 }
 
 .header--banner--nav li a {
-  color:white;
+  color:#FAF9F6;
   font-weight: 800;
   text-decoration: none;
   font-size: 1rem;
@@ -87,8 +87,9 @@ main {
 }
 
 .student--info {
-  width: 1500px; 
-}
+  padding-left: 10rem;
+  padding-right: 10rem;
+  width: 100rem; }
 
 .student--info h2 {
   font-size: xx-large;
@@ -113,7 +114,7 @@ main {
   text-align: center;
   font-size: x-large;
   padding: 1rem;
-  background-color: red;
+  background-color: #F02424;
 }
 
 .big--box--1 {
@@ -135,20 +136,31 @@ main {
   text-decoration: underline;
 }
 
+.break{
+  height: 5rem;
+}
+
 
 /* Student Services*/
 .student--Services {
-  width: 1500px; 
+  padding-left: 10rem;
+  padding-right: 10rem;  
+  width: 100rem; 
+
 }
 
 .student--Services h2 {
   font-size: xx-large;
   padding: 1rem;
   background-color: black;
+  transform: translate(0,1rem);
+
 }
 
 .student--Services--items {
-  background-color: whitesmoke;
+  background-color: #FAF9F6;
+  border-radius: 1rem;
+
 }
 
 .student--Services--items ul {
@@ -161,10 +173,11 @@ main {
 }
 
 .student--Services--items li {
+  border-radius: 1rem;
   text-align: center;
-  font-size: x-large;
+  font-size: 2rem;
   padding: 1rem;
-  background-color: red;
+  background-color: #F02424;
 }
 
 .Noti {
@@ -173,17 +186,26 @@ main {
   grid-column-start: 2;
   grid-column-end: 4;
   text-align: center;
-  font-size: x-large;
   padding: 1rem;
-  background-color: red;
+  background-color: #F02424;
 }
 
 .Noti_form{
+  color: black;
+  background-color: #F5EDED;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1rem;
+
+  margin-top:2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
   margin-left:5rem;
   margin-right:5rem;
 
-  margin-top:2rem;
   text-align: start;
+  font-size: 1.5rem;
+
 }
 
 .boxes{
@@ -194,9 +216,10 @@ main {
 }
 
 .Noti_form_check{
-  color:green;
-  border: 2px dotted;
   margin-left: 3rem;
+  padding-left: 11.7rem;
+  padding-top: 1rem;
+
 }
 
 .middle--row {
