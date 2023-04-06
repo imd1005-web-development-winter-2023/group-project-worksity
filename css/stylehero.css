@@ -29,16 +29,17 @@
     width: 100%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.3),
      rgba(255, 43, 43, 0.316)),
-     url(https://cdn.carleton.ca/crm-assets/img/cu-crm-login-bg-small.jpg);/*
-     "images\hero.jpg";*/
+     url(https://cdn.carleton.ca/crm-assets/img/cu-crm-login-bg-small.jpg);
+     /*"images\hero.jpg";*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
+    /* Makes header stuff not work */
+    /* flex-direction: column; */
+    justify-content: center; 
+    align-items: center;
   }
 
 
@@ -46,7 +47,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* Makes header stuff not work */
+    /* min-height: 100vh; */
   }
   
 

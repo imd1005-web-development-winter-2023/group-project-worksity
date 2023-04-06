@@ -31,14 +31,15 @@
 
 .header--banner--nav ul {
   display: flex;
-  gap: 10rem;
+  gap: 5rem;
+  padding-right: 5rem;
   list-style-type:none;
 
 }
 .search{
   color:black;
   height: 2rem;
-  width: 10rem;
+  width: 30%;
   font-size:1rem ;
 }
 

@@ -91,6 +91,12 @@ ul{
 	padding-left: 8px;
 }
 
+.site--version {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    color: white;
+}
+
 /*Media dimensions for responsive design*/
 @media(max-width: 1000px){
     .column{
