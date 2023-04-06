@@ -7,10 +7,12 @@
 /*
  VARIABLES
 */
-
+:root {
+  --colour-background-cred: #D81010;
+}
 /* homebar */
 .header {
-  background-color: #D81010;
+  background-color: var(--colour-background-cred);
   padding: .7rem ;
   margin-right: start;
 }
@@ -101,17 +103,17 @@ main {
 .student--info--items li {
   border-radius: 1rem;
   text-align: center;
-  font-size: x-large;
+  font-size: large;
   padding: 1rem;
-  background-color: #D81010;
+  background-color: var(--colour-background-cred);
 }
 
-.big--box--1 {
+.registrations--box {
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-.big--box--2 {
+.applications--box {
   grid-column-start: 3;
   grid-column-end: -1;
 }
@@ -167,12 +169,16 @@ main {
   text-align: center;
   font-size: larger;
   padding: 1rem;
-  background-color: #D81010;
+  background-color: var(--colour-background-cred);
 }
 
 .student--Services--items li a {
   text-decoration: none;
   color: white;
+}
+
+.student--Services--items li a:hover {
+  text-decoration: underline;
 }
 
 /*----------------Top Row----------------------*/
@@ -184,7 +190,7 @@ main {
   grid-column-end: 4;
   text-align: center;
   padding: 3rem;
-  background-color: #D81010;
+  background-color: var(--colour-background-cred);
 }
 
 .Noti_form{
@@ -251,10 +257,28 @@ input[type=submit] {
 
 /*Trying to add a box for the icon*/
 .icon{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 10rem;
   width: 10rem;
-  background:white; 
+  /* background:white;  */
+  /* border: 1px solid white; */
   margin: auto;
+}
+
+.icon img {
+  height: 10rem;
+  width: 10rem;
+  padding: 1rem;
+  filter: invert() opacity(60%);
+  transition: 0.1s;
+}
+
+.icon img:hover {
+  padding: 0;
+  filter: invert() opacity(100%);
+  transition: 0.1s;
 }
 
 .middle--row ul{
