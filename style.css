@@ -8,11 +8,12 @@
  VARIABLES
 */
 :root {
-  --colour-background-cred: #D81010;
+  --colour-background-cRed: #D81010;
+  --colour-cOffWhite: #F5EDED;
 }
 /* homebar */
 .header {
-  background-color: var(--colour-background-cred);
+  background-color: var(--colour-background-cRed);
   padding: .7rem ;
   margin-right: start;
 }
@@ -39,7 +40,7 @@
 .search{
   color:black;
   height: 2rem;
-  width: 30%;
+  width: 50%;
   font-size:1rem ;
 }
 
@@ -106,7 +107,7 @@ main {
   text-align: center;
   font-size: large;
   padding: 1rem;
-  background-color: var(--colour-background-cred);
+  background-color: var(--colour-background-cRed);
 }
 
 .registrations--box {
@@ -152,7 +153,7 @@ main {
 }
 
 .student--Services--items {
-  background-color: #FAF9F6;
+  background-color: var(--colour-cOffWhite);
   border-radius: 1rem;
 
 }
@@ -170,7 +171,7 @@ main {
   text-align: center;
   font-size: larger;
   padding: 1rem;
-  background-color: var(--colour-background-cred);
+  background-color: var(--colour-background-cRed);
 }
 
 .student--Services--items li a {
@@ -191,12 +192,12 @@ main {
   grid-column-end: 4;
   text-align: center;
   padding: 3rem;
-  background-color: var(--colour-background-cred);
+  background-color: var(--colour-background-cRed);
 }
 
 .Noti_form{
   color: black;
-  background-color: #F5EDED;
+  background-color: var(--colour-cOffWhite);
   border-style: solid;
   border-width: 0.1px;
   border-radius: 1rem;
@@ -238,6 +239,16 @@ input[type=submit] {
   cursor:pointer;
   border-radius: 5px; 
   margin-left: 10.5rem;
+  filter: drop-shadow(0 0 0.2rem gray);
+  transition: 0.2s;
+}
+
+input[type=submit]:hover {
+  color: white;
+  border-color: var(--colour-cOffWhite);
+  background-color: var(--colour-background-cRed);
+  filter: drop-shadow(0 0 0rem var(--colour-cOffWhite));
+  transition: 0.2s;
 }
 
 /*----------------Middle Row----------------------*/
@@ -272,13 +283,13 @@ input[type=submit] {
   height: 10rem;
   width: 10rem;
   padding: 1rem;
-  filter: invert() opacity(60%);
+  filter: invert() opacity(60%) drop-shadow(0 0 0.2rem gray);
   transition: 0.1s;
 }
 
 .icon img:hover {
   padding: 0;
-  filter: invert() opacity(100%);
+  filter: invert() opacity(100%) drop-shadow(0 0 0.3rem var(--colour-cOffWhite));
   transition: 0.1s;
 }
 
