@@ -4,6 +4,10 @@
 
 /* THis is a comment from Neil */
 
+/* *{
+  border: 1px solid blue;
+} */
+
 /*
  VARIABLES
 */
@@ -90,7 +94,7 @@ main {
 }
 
 .student--info--items {
-  background-color: whitesmoke;
+  background-color: var(--colour-cOffWhite);
   border-radius: 1rem;
 }
 

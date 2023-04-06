@@ -43,16 +43,22 @@
   }
 
 
-  .heads--container{
+  .heads--container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* Makes header stuff not work */
     /* min-height: 100vh; */
   }
-  
 
-  .campus-alerts{
+  .heads--container h1 {
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 1rem;
+  }
+
+  .campus-alerts {
     height: 140px;
     width: 700px;
     border-radius: 20px;
@@ -69,7 +75,7 @@
     box-shadow: rgb(156, 0, 0) 0px 2px 8px 0px;
   }
 
-  .vl{
+  .vl {
     border-left: 2px solid var(--colour-isabelline);
       height: 100px;
       width: 20px;
