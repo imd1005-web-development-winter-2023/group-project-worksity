@@ -58,8 +58,8 @@
     font-size: 3em;
     font-weight: 600;
     padding: 1rem;
-    text-shadow: 1px 1px 1px #E91C24;/*
-    color:aqua;*/
+    text-shadow: 1px 1px 1px #E91C24;
+    /*color:aqua;*/
   }
 
   .heads--container h1:after {
