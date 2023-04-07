@@ -119,3 +119,15 @@
         display: none;
       }
     }
+
+    @media only screen and (max-width: 1360px) {
+      .campus-alerts {
+        flex-direction: column;
+      }
+      .vl {
+        border-bottom: 2px solid var(--colour-isabelline);
+        height: 0px;
+        width: 100%;
+      }
+    }
+  

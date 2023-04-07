@@ -33,7 +33,10 @@
         <h2 class="sr-only">Site header</h2>
         <div class="header--banner">
           <img class= "header--banner--img" src="images/CarletonLogo.png" alt="Company logo" />
-          <input type="text" placeholder="Search.." class = "search">
+          <form class=search_form>
+            <input type="text" placeholder="Search.." class = "search">
+            <input class="search--button" type="submit" value="Search">
+          </form>
           <nav class="header--banner--nav">
             <ul>
               <li><a href="#">Site Map</a></li>
@@ -176,7 +179,7 @@
                     <label for="Texts"> I would like to be sent updates via text.</label><br>
                     <input type="checkbox" id="bot" name="bot" value="Bot">
                     <label for="bot"> I am not a robot. </label><br>
-                    <input type="submit" value="Submit">
+                    <input class="Noti_submit" type="submit" value="Submit">
                   </div>
                   </form>  
                 </li>
