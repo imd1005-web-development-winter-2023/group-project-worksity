@@ -169,7 +169,7 @@ main {
   background-color: var(--colour-background-cRed);
 }
 
-@media only screen and (min-width: 1360px) {
+@media only screen and (min-width: 1000px) {
   .registrations--box {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -194,7 +194,7 @@ main {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1000px) {
   .student--info--items ul {
     grid-template-columns: 1fr 1fr;
   }
@@ -246,7 +246,7 @@ main {
   list-style-type: none;
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1000px) {
   .student--Services--items ul {
     display: grid;
     grid-template-columns: 1fr;
@@ -283,7 +283,7 @@ main {
 
 /*----------------Top Row----------------------*/
 
-@media only screen and (min-width: 1360px) {
+@media only screen and (min-width: 1000px) {
   .Noti {
     grid-row-start: 1;
     grid-row-end: 1;
@@ -323,7 +323,7 @@ main {
   gap: 1rem;
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1000px) {
   .box {
     flex-direction: column;
     text-align: left;
@@ -369,7 +369,7 @@ main {
   flex-direction: column;
 }
 
-@media only screen and (min-width: 1360px) {
+@media only screen and (min-width: 1000px) {
   .middle--row {
     grid-row-start: 2;
     grid-row-end: 2;
