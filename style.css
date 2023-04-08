@@ -339,7 +339,7 @@ main {
   flex-direction: column;
   text-align: left;
   padding: 1rem;
-  font-size: 1.2vmax;
+  font-size: 1vmax;
 }
 
 .Noti_submit {
