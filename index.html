@@ -24,7 +24,7 @@
 
       ADD YOUR GROUP PROJECT CODE
 
-      Ray was heren't.
+      Ray was heren't. (acctually you where here - Jason)
 
       Jayne was here!
           -->
@@ -33,7 +33,10 @@
         <h2 class="sr-only">Site header</h2>
         <div class="header--banner">
           <img class= "header--banner--img" src="images/CarletonLogo.png" alt="Company logo" />
-          <input type="text" placeholder="Search.." class = "search">
+          <form class=search_form>
+            <input type="text" placeholder="Search.." class = "search">
+            <input class="search--button" type="submit" value="Search">
+          </form>
           <nav class="header--banner--nav">
             <ul>
               <li><a href="#">Site Map</a></li>
@@ -151,7 +154,7 @@
             <h2>Student Services</h2>
             <nav class="student--Services--items">
               <ul>
-                <li class="top--row"><a href="#"><h3>Events</h3>
+                <li class="events--items"><a href="#"><h3>Events</h3>
                   <div class="icon">
                     <img
                       src="images/icons/events_icon.svg"
@@ -161,48 +164,64 @@
                 </a></li>
                
                 <li class="Noti">
+                  <div class="Noti--items">
                   <a href="#"><h3>Want Notifications?</h3></a>
                   <form class=Noti_form>
-                    <label class="boxes" for="name"> Name:   </label>
-                    <input type="text" id="name" name="name" required><br>
-                    <label class="boxes"for="email"> Email: </label>
-                    <input type="text" id="email" name="email"><br>
-                    <label class="boxes"for="phoneNumber">Phone Number: </label>
-                    <input type="text" id="phoneNumber" name="phoneNumber"><br>
-                    
+                    <div class="boxes">
+                      <div class="box">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name" required>
+                      </div>
+                      <div class="box">
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" name="email">
+                      </div>
+                      <div class="box">
+                        <label for="phoneNumber">Phone Number: </label>
+                        <input type="text" id="phoneNumber" name="phoneNumber">
+                      </div>
+                    </div>
                   <div class="Noti_form_check">
-                    <input type="checkbox" id="Emails" name="Emails" value="Email" >
-                    <label for="Emails"> I would like to be sent updates via emails.</label><br>
-                    <input type="checkbox" id="Texts" name="Texts" value="Text">
-                    <label for="Texts"> I would like to be sent updates via text.</label><br>
-                    <input type="checkbox" id="bot" name="bot" value="Bot">
-                    <label for="bot"> I am not a robot. </label><br>
-                    <input type="submit" value="Submit">
+                    <div>
+                      <input type="checkbox" id="Emails" name="Emails" value="Email" >
+                      <label for="Emails"> I would like to be sent updates via emails.</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="Texts" name="Texts" value="Text">
+                      <label for="Texts"> I would like to be sent updates via text.</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="bot" name="bot" value="Bot">
+                      <label for="bot"> I am not a robot. </label>
+                    </div>
                   </div>
-                  </form>  
+
+                  <input class="Noti_submit" type="submit" value="Submit">
+                  </form> 
+                </div> 
                 </li>
 
                 <li class="middle--row"><a href="#"><h3>Housing</h3></a>
                   <ul>
-                    <li class="Offer"><a href="#"><h4>View residence offers</h4>
+                    <li class="Offer"><a href="#"><h4>Residence Offers</h4>
                       <div class="icon">
                         <img
-                          src="images/icons/house-offers_icon.svg"
+                          src="images/icons/house-offers_icon (3).svg"
                           alt="house-offers_icon"
                         />
                       </div>
                     </a></li>
                     <li class="Apply"><a href="#">
-                      <h4>Apply to residence</h4>
+                      <h4>Apply to Residence</h4>
                       <div class="icon">
                         <img
-                          src="images/icons/house-apply_icon.svg"
+                          src="images/icons/house-apply_icon (3).svg"
                           alt="house-apply_icon"
                         />
                       </div>
                     </a></li>
                     <li class="Waitlist"><a href="#">
-                      <h4>View waitlist</h4>                      
+                      <h4>View Wait-list</h4>                      
                       <div class="icon">
                         <img
                           src="images/icons/house-waitlist_icon.svg"
@@ -212,10 +231,10 @@
                     </a></li>
                   </ul>
                 </li>
-                <li class="bottom--row"><a href="#"><h3>Student Support Services</h3>
+                <li class="bottom--row"><a href="#"><h3>Student Support</h3>
                   <div class="icon">
                     <img
-                      src="images/icons/student_support_icon.svg"
+                      src="images/icons/student_support_icon (3).svg"
                       alt="student_support_icon"
                     />
                   </div>
@@ -223,7 +242,7 @@
                 <li class="bottom--row"><a href="#"><h3>TA Management</h3>
                   <div class="icon">
                     <img
-                      src="images/icons/ta_management_icon.svg"
+                      src="images/icons/ta_management_icon (2).svg"
                       alt="ta_management_icon"
                     />
                   </div>
