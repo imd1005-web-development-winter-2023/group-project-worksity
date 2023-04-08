@@ -4,9 +4,9 @@
 
 /* THis is a comment from Neil */
 
-*{
+/* *{
   border: 1px solid blue;
-}
+} */
 
 /*
  VARIABLES
@@ -35,11 +35,20 @@
 }
 
 .header--banner--nav ul {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   gap: 5rem;
   padding-right: 5rem;
   list-style-type:none;
 
+}
+
+@media only screen and (max-width: 1360px) {
+  .header--banner--nav ul {
+    justify-content: center;
+    padding-right: 2rem;
+    gap: 1rem;
+  }
 }
 
 .search_form {
@@ -87,7 +96,7 @@
   color:var(--colour-cOffWhite);
   font-weight: 800;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .header--banner--nav ul li a:hover {
@@ -116,7 +125,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 
   display: flex;
   justify-content: center;
@@ -124,8 +133,8 @@ main {
 }
 
 .student--info {
-  padding-left: 10rem;
-  padding-right: 10rem;
+  /* padding-left: 10rem;
+  padding-right: 10rem; */
   /* width: 100rem;  */
   filter: drop-shadow(0 0 0.75rem black);
 }
@@ -152,9 +161,10 @@ main {
 }
 
 .student--info--items li {
+  display: flex;
+  justify-content: center;
   border-radius: 1rem;
   text-align: center;
-  /*font-size: large;*/
   padding: 1rem;
   background-color: var(--colour-background-cRed);
 }
@@ -169,6 +179,10 @@ main {
     grid-column-start: 3;
     grid-column-end: -1;
   }
+}
+
+.student--info--items h3 {
+  font-weight: 100;
 }
 
 .student--info--items li a {
@@ -199,13 +213,13 @@ main {
 
 /* Student Services*/
 .student--Services {
-  padding-left: 10rem;
-  padding-right: 10rem;
+  /* padding-left: 10rem;
+  padding-right: 10rem; */
   margin-bottom: 5rem;  
   /* width: 100rem;  */
   filter: drop-shadow(0 0 0.75rem black);
 }
-
+/* 
 .student--Services h2 {
   color: white;
   font-size: xx-large;
@@ -239,6 +253,16 @@ main {
   }
 }
 
+@media only screen and (max-width: 1360px) {
+  .student--Services--items ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    list-style-type: none;
+  }
+}
+
 .student--Services--items li {
   border-radius: 1rem;
   text-align: center;
@@ -254,10 +278,10 @@ main {
 
 .student--Services--items li a:hover {
   text-decoration: underline;
-}
+} */
 
 /*----------------Top Row----------------------*/
-
+/* 
 @media only screen and (min-width: 1360px) {
   .Noti {
     grid-row-start: 1;
@@ -280,29 +304,40 @@ main {
   margin-top:1rem;
   margin-bottom:1rem;
 
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
   margin-left:3rem;
   margin-right:3rem;
 
-  text-align: start;
   font-size: large;
 }
 
-.boxes{
-  display: inline-block;
-  clear: left;
-  width: 33%;
-  text-align: right;
+.boxes {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
+}
+
+.box {
+  display: flex;
+  justify-content: right;
+}
+
+@media only screen and (max-width: 1360px) {
+  .box {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .boxes {
+    padding: 0px;
+  }
 }
 
 .Noti_form_check{
-  padding-left: 8rem;
-  padding-top: 1rem;
-  /*
-  margin-left: 3rem;
-  padding-left: 11.7rem;
-  */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1rem;
 }
 
 .Noti_submit {
@@ -313,7 +348,6 @@ main {
   border-color: black;
   cursor:pointer;
   border-radius: 5px; 
-  margin-left: 25%;
   filter: drop-shadow(0 0 0.2rem gray);
   transition: 0.2s;
 }
@@ -324,10 +358,10 @@ main {
   background-color: var(--colour-background-cRed);
   filter: drop-shadow(0 0 0rem var(--colour-cOffWhite));
   transition: 0.2s;
-}
+} */
 
 /*----------------Middle Row----------------------*/
-
+/* 
 @media only screen and (min-width: 1360px) {
   .middle--row {
     grid-row-start: 2;
@@ -344,7 +378,7 @@ main {
 
 .middle--row li a:hover {
   text-decoration: underline;
-}
+} */
 
 /*Trying to add a box for the icon*/
 .icon{  
@@ -353,9 +387,9 @@ main {
   align-items: center;
   height: 10rem;
   width: 10rem;
-  /* background:white;  */
+  background:white; 
   /* border: 1px solid white; */
-  margin: auto;
+  /* margin: auto; */
 }
 
 .icon img {

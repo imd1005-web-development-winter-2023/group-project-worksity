@@ -165,22 +165,36 @@
                 <li class="Noti">
                   <a href="#"><h3>Want Notifications?</h3></a>
                   <form class=Noti_form>
-                    <label class="boxes" for="name"> Name:   </label>
-                    <input type="text" id="name" name="name" required><br>
-                    <label class="boxes"for="email"> Email: </label>
-                    <input type="text" id="email" name="email"><br>
-                    <label class="boxes"for="phoneNumber">Phone Number: </label>
-                    <input type="text" id="phoneNumber" name="phoneNumber"><br>
-                    
+                    <div class="boxes">
+                      <div class="box">
+                        <label for="name"> Name:   </label>
+                        <input type="text" id="name" name="name" required>
+                      </div>
+                      <div class="box">
+                        <label for="email"> Email: </label>
+                        <input type="text" id="email" name="email">
+                      </div>
+                      <div class="box">
+                        <label for="phoneNumber">Phone Number: </label>
+                        <input type="text" id="phoneNumber" name="phoneNumber">
+                      </div>
+                    </div>
                   <div class="Noti_form_check">
-                    <input type="checkbox" id="Emails" name="Emails" value="Email" >
-                    <label for="Emails"> I would like to be sent updates via emails.</label><br>
-                    <input type="checkbox" id="Texts" name="Texts" value="Text">
-                    <label for="Texts"> I would like to be sent updates via text.</label><br>
-                    <input type="checkbox" id="bot" name="bot" value="Bot">
-                    <label for="bot"> I am not a robot. </label><br>
-                    <input class="Noti_submit" type="submit" value="Submit">
+                    <div>
+                      <input type="checkbox" id="Emails" name="Emails" value="Email" >
+                      <label for="Emails"> I would like to be sent updates via emails.</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="Texts" name="Texts" value="Text">
+                      <label for="Texts"> I would like to be sent updates via text.</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="bot" name="bot" value="Bot">
+                      <label for="bot"> I am not a robot. </label>
+                    </div>
                   </div>
+
+                  <input class="Noti_submit" type="submit" value="Submit">
                   </form>  
                 </li>
 
