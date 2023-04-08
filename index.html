@@ -28,7 +28,7 @@
 
       Jayne was here!
           -->
-      <div class="header">
+      <div class="header" id="navItems">
       <div class="container">
         <h2 class="sr-only">Site header</h2>
         <div class="header--banner">
@@ -40,6 +40,7 @@
               <li><a href="#">Help</a></li>
               <li><a href="#">Logout</a></li>
             </ul>
+            <img class="menu-icon" onclick="showMenu()" src="images/icons/student_records_icon.svg" alt="student_records_icon" />
           </nav>
         </div>
       </div>
@@ -281,7 +282,7 @@
         </div>
         <div class="site--version">
           <p>
-              RELEASE: 1.0.0.1 <br/>
+              RELEASE: 1.0.0.2 <br/>
               © 2023 Worksity Group and its affiliates.
           </p>
       </div>
@@ -292,6 +293,16 @@
 
   </body>
 
-  <script src="./main.js"></script>
+  <script src="./main.js">
+
+let navItems = document.getElementById("navItems");
+    function showMenu() {
+      navItems.style.right = "0";
+    }
+    function hideMenu() {
+      navItems.style.right = "-200px";
+    }
+
+  </script>
 
 </html>

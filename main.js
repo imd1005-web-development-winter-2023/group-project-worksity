@@ -1,4 +1,4 @@
-/*
+
 //
 //  JS File
 //  You may remove the code below - it's just boilerplate
@@ -9,13 +9,17 @@
 //
 
 // Constants
+
+/*
 const appID = "app";
 const headingText = "Develop. Preview. Ship.";
 const headingTextIcon = "🚀";
-const projectDueDate = "11 April 2023 11:59";
+const projectDueDate = "11 April 2023 11:59";*/
 
 // Variables
-let countdownDate = new Date(projectDueDate);
+//let countdownDate = new Date(projectDueDate);
+
+let navItems = document.getElementById("navItems");
 
 // DOM Elements
 let appContainer = document.getElementById(appID);
@@ -23,7 +27,7 @@ let appContainer = document.getElementById(appID);
 //
 // Functions
 //
-
+/*
 function calculateDaysLeft(countdownDate) {
   const now = new Date().getTime();
   const countdown = new Date(countdownDate).getTime();
@@ -38,8 +42,8 @@ function calculateDaysLeft(countdownDate) {
   const days = Math.floor(difference / (60 * 60 * 24));
 
   return days;
-}
-
+}*/
+/*
 // Add a heading to the app container
 function inititialise() {
   // If anything is wrong with the app container then end
@@ -65,12 +69,22 @@ function inititialise() {
 
   // Init complete
   console.log("App successfully initialised");
-}
+}*/
 
 //
 // Inits & Event Listeners
 //
 
-inititialise();
+//inititialise();
 
-*/
+
+
+// Functions
+//
+
+    function showMenu() {
+      navItems.style.right = "0";
+    }
+    function hideMenu() {
+      navItems.style.right = "-200px";
+    }
