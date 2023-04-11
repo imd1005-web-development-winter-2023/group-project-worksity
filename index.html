@@ -18,6 +18,9 @@
 
     <!-- Set the Favicon  -->
     <link rel="icon" href="./images/favicon/carleton_logo.jpg" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
   </head>
   <body>
     <!--
@@ -34,12 +37,15 @@
         <div class="header--banner">
           <a href="#headerID"><img class= "header--banner--img" src="images/CarletonLogo.png" alt="Company logo" /></a>
           
+          <a id="menu-icon" class="menu-icon" onclick="showMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
 
           <form class=search_form>
             <input type="text" placeholder="Search.." class = "search">
             <input class="search--button" type="submit" value="Search">
           </form>
-          <nav class="header--banner--nav">
+          <nav class="header--banner--nav" id="navItems">
             <ul>
               <li><a href="#">Site Map</a></li>
               <li><a href="#">Help</a></li>
@@ -313,7 +319,19 @@
 
   </body>
 
-  <script src="./main.js">
+  <script>
+
+    alert("Hello World");
+
+    
+      let navItems = document.getElementById("navItems");
+      function showMenu() {
+        navItems.style.right = "0";
+      }
+      function hideMenu() {
+        navItems.style.right = "-200px";
+      }
+    
 
   </script>
 
