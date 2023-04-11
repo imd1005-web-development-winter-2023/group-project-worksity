@@ -1,0 +1,135 @@
+/*
+  CSS File
+*/
+
+/* This is a comment from Neil */
+
+/*
+ VARIABLES
+*/
+:root {
+    /* Core colours */
+    /* https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
+    --colour-cblack: #1A1A18;
+    --colour-cred: #E91C24;
+    --colour-isabelline: #EFE9E7;
+    /*--colour-wedgewood: #457b9d;
+    --colour-cello: #1d3557;*/
+  
+    /* Header configuration */
+    --header-heading-colour: var(--colour-cred);
+  
+    /* Body configuration */
+    --body-default-colour: var(--colour-cblack);
+    --body-background-colour: var(--colour-isabelline);
+  }
+
+.row{
+    width: 100%;
+	display: inline-flex;
+	flex-wrap: nowrap;
+    justify-content: space-between;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    background-color: var(--colour-cblack);
+    padding: 70px 0;
+}
+.column{
+    flex: auto;
+    align-items: center;
+   max-width: 25%;
+   padding: 0 15px;
+}
+
+.column-1 {
+    flex: auto;
+    align-items: center;
+    max-width: 25%;
+    padding: 0 15px;
+}
+
+.column-1 img {
+    width: 100%;
+    height: auto;
+}
+
+.column h2{
+	font-size: 2.5vmin;
+	color: #ffffff;
+	margin-bottom: 35px;
+    font-style: strong;
+    position: relative;
+}
+
+.column h2::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: var(--colour-cred);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.column ul{
+    padding: 0;
+}
+
+.column ul li{
+	margin-bottom: 10px;
+}
+
+.column ul li a{
+	font-size: 2vmin;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: var(--colour-isabelline);
+	display: block;
+	transition: all 0.3s ease;
+}
+.column ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.site--version {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: white;
+    font-size: 2vmin;
+}
+
+/*Media dimensions for responsive design*/
+@media(max-width: 1000px){
+    .column{
+      width: 50%;
+      padding: 0 15px;
+  }
+}
+
+@media(max-width: 700px) {
+
+    .column-1 {
+        display: none;
+    }
+    .column{
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column {
+        max-width: 50%;
+    }
+}

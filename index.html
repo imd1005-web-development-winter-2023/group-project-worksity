@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca-en">
   <head>
     <!-- Set the page title -->
     <title>Group Project</title>
@@ -17,21 +17,330 @@
     <link rel="stylesheet" href="./style.css" />
 
     <!-- Set the Favicon  -->
-    <link rel="icon" href="./images/favicon/rocket.svg" type="image/svg+xml" />
+    <link rel="icon" href="./images/favicon/carleton_logo.jpg" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
   </head>
   <body>
     <!--
 
       ADD YOUR GROUP PROJECT CODE
 
-      YOU MAY REMOVE THE BOILERPLATE CODE BELOW
+      Ray was heren't. (acctually you where here - Jason)
 
-    -->
+      Jayne was here!
+          -->
+      <div class="header" id="headerID">
+      <div class="container">
+        <h2 class="sr-only">Site header</h2>
+        <div class="header--banner">
+          <a href="#headerID"><img class= "header--banner--img" src="images/CarletonLogo.png" alt="Company logo" /></a>
+          
+          <a id="menu-icon" class="menu-icon" onclick="showMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+
+          <form class=search_form>
+            <input type="text" placeholder="Search.." class = "search">
+            <input class="search--button" type="submit" value="Search">
+          </form>
+          <nav class="header--banner--nav" id="navItems">
+            <ul>
+              <li><a href="#">Site Map</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Log Out</a></li>
+            </ul>
+            </nav>
+        </div>
+      </div>
+    </div>
+    
+      <!-- We are using a CSS Reset file to standardize browser default css -->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!-- This is where all of our awesome CSS code goes -->
+    <link rel="stylesheet" href="css/stylehero.css" />
+    <!--YOU MAY REMOVE THE BOILERPLATE CODE BELOW -->
+    <body>
+      <section class="heads" id="head">
+        <section class="heads--container"> 
+          <h2>Welcome to</h2> 
+          <h1>Carleton Central</h1> 
+          <br>
+          <br>         
+          <div class="campus-alerts">
+            <h2>Campus Alerts</h2> <br>
+            <div class="vl"></div>
+            <div class="alert">
+              <h2>Alert Title</h2>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                <br>
+                Omnis amet facilis ipsum, eos architecto a neque error vitae tenetur voluptates nihil. Fuga numquam doloribus dicta aperiam exercitationem voluptatem eos saepe.
+              </p>
+            </div>
+            
+          </div>
+  
+        </section>
+        <!-- TODO: I would like to add a way to navigate multiple recent messages. Or access a messages screen? -->
+      </section>
+  </body>
+  
     <main>
-      <div id="app"></div>
+      <div id="app">
+
+        <section class="break"> </section>
+
+
+        <!-- Student Info Section -->
+        <section>
+          <div class="student--info">
+            <h2>Student Info</h2>
+            <nav class="student--info--items">
+              <ul>
+                <li><a href="#"><h3>Personal Info</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/personal_info_icon.svg"
+                      alt="personal_info_icon"
+                    />
+                  </div>
+                </a></li>
+                <li><a href="#"><h3>Student Records</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/student_records_icon.svg"
+                      alt="student_records_icon"
+                    />
+                  </div>
+                </a></li>
+                <li><a href="#"><h3>Academic Progress</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/accedemic_progress_icon.svg"
+                      alt="accedemic_progress_icon"
+                    />
+                  </div>
+                </a></li>
+                <li><a href="#"><h3>My Success</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/my_success_icon.svg"
+                      alt="my_success_icon"
+                    />
+                  </div>
+                </a></li>
+                <li class="registrations--box"><a href="#"><h3>Registrations</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/registrations_icon.svg"
+                      alt="registrations_icon"
+                    />
+                  </div>
+                </a></li>
+                <li class="applications--box"><a href="#"><h3>Applications</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/applications_icon.svg"
+                      alt="applications_icon"
+                    />
+                  </div>
+                </a></li>
+                <li class="awards--financial--assistance--box"><a href="#"><h3>Awards & Financial Assistance</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/awards_financial_assistance_icon.svg"
+                      alt="awards_financial_assistance_icon"
+                    />
+                  </div>
+                </a></li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+
+        <section class="break"> </section>
+        
+        <!-- Student Services -->
+        <section>
+          <div class="student--Services">
+            <h2>Student Services</h2>
+            <nav class="student--Services--items">
+              <ul>
+                <li class="events--items"><a href="#"><h3>Events</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/events_icon.svg"
+                      alt="events_icon"
+                    /> 
+                  </div>
+                </a></li>
+               
+                <li class="Noti">
+                  <div class="Noti--items">
+                  <a href="#"><h3>Want Notifications?</h3></a>
+                  <form class=Noti_form>
+                    <div class="boxes">
+                      <div class="box">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name" required>
+                      </div>
+                      <div class="box">
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" name="email">
+                      </div>
+                      <div class="box">
+                        <label for="phoneNumber">Phone Number: </label>
+                        <input type="text" id="phoneNumber" name="phoneNumber">
+                      </div>
+                    </div>
+                  <div class="Noti_form_check">
+                    <div>
+                      <input type="checkbox" id="Emails" name="Emails" value="Email" >
+                      <label for="Emails"> I would like to be sent updates via emails.</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="Texts" name="Texts" value="Text">
+                      <label for="Texts"> I would like to be sent updates via text.</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="bot" name="bot" value="Bot">
+                      <label for="bot"> I am not a robot. </label>
+                    </div>
+                  </div>
+
+                  <input class="Noti_submit" type="submit" value="Submit">
+                  </form> 
+                </div> 
+                </li>
+
+                <li class="middle--row"><a href="#"><h3>Housing</h3></a>
+                  <ul>
+                    <li class="Offer"><a href="#"><h4>Residence Offers</h4>
+                      <div class="icon">
+                        <img
+                          src="images/icons/house-offers_icon (3).svg"
+                          alt="house-offers_icon"
+                        />
+                      </div>
+                    </a></li>
+                    <li class="Apply"><a href="#">
+                      <h4>Apply to Residence</h4>
+                      <div class="icon">
+                        <img
+                          src="images/icons/house-apply_icon (3).svg"
+                          alt="house-apply_icon"
+                        />
+                      </div>
+                    </a></li>
+                    <li class="Waitlist"><a href="#">
+                      <h4>View Wait-list</h4>                      
+                      <div class="icon">
+                        <img
+                          src="images/icons/house-waitlist_icon.svg"
+                          alt="house-waitlist_icon"
+                        />
+                      </div>
+                    </a></li>
+                  </ul>
+                </li>
+                <li class="bottom--row"><a href="#"><h3>Student Support</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/student_support_icon (3).svg"
+                      alt="student_support_icon"
+                    />
+                  </div>
+                </a></li>
+                <li class="bottom--row"><a href="#"><h3>TA Management</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/ta_management_icon (2).svg"
+                      alt="ta_management_icon"
+                    />
+                  </div>
+                </a></li>
+                <li class="bottom--row"><a href="#"><h3>Online Courses</h3>
+                  <div class="icon">
+                    <img
+                      src="images/icons/online_courses_icon.svg"
+                      alt="online_courses_icon"
+                    />
+                  </div>
+                </a></li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+
+
+      </div>
+
+
     </main>
 
+    <link rel="stylesheet" href="css/stylef.css" />
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+            <div class="column-1">
+                <img src="images/logo.png" alt="Carleton Logo for footer">
+            </div>
+            <div class="column">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">Visit Us</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Terms & Conditions</h2>
+                <ul>
+                    <li><a href="#">Third Party Release</a></li>
+                    <li><a href="#">Information Policy</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Support</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">I.T. Support</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="site--version">
+          <p>
+              RELEASE: 1.0.0.2 <br/>
+              © 2023 Worksity Group and its affiliates.
+          </p>
+      </div>
+    </div>
+    </footer>
+
     <!-- This is where we add our awesome JavaScript code -->
-    <script src="./main.js"></script>
+
   </body>
+
+  <script>
+
+    //alert("Hello World");
+
+    
+      let navItems = document.getElementById("navItems");
+      function showMenu() {
+        navItems.style.right = "0";
+      }
+      function hideMenu() {
+        navItems.style.right = "-200px";
+      }
+    
+
+  </script>
+
 </html>
