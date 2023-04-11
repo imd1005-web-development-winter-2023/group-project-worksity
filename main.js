@@ -1,7 +1,7 @@
 
 
 function onMenuClick() {
-    alert("You Clicked me");
+    //alert("You Clicked me");
     var navbar = document.getElementById("header--banner");
     var responsive_class_name = "responsive";
 
