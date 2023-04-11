@@ -195,9 +195,6 @@ main {
 }
 
 .student--info--items li {
-  display: flex;
-  justify-content: center;
-  text-align: center;
   border-radius: 1rem;
   padding: 1rem;
   background-color: var(--colour-background-cRed);
@@ -213,6 +210,11 @@ main {
     grid-column-start: 3;
     grid-column-end: -1;
   }
+
+  .awards--financial--assistance--box {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
 }
 
 .student--info--items h3 {
@@ -220,6 +222,10 @@ main {
 }
 
 .student--info--items li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: white;
 }
@@ -231,6 +237,11 @@ main {
 @media only screen and (max-width: 1000px) {
   .student--info--items ul {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .awards--financial--assistance--box {
+    grid-column-start: 1;
+    grid-column-end: -1;
   }
 }
 
@@ -307,6 +318,10 @@ main {
 } 
 
 .student--Services--items li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: white;
 }
